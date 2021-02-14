@@ -389,8 +389,8 @@ function switchGraph() {
 function puckSim() {
 		//simulate puck resistance during shot, returns array of all data
 	var puckResistanceData = []
-		//preinfusion time = 5 +- 1s
-	var preinfuse=5 + Math.floor(Math.random()*2-1)
+		//preinfusion time = 10 +- 1s
+	var preinfuse=10 + Math.floor(Math.random()*2-1)
 		//set resistance: baseline and additional
 	var baselineRes=0.5
 	var res=6 + Math.floor(Math.random()*2-1)
